@@ -18,5 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/home',function(){
+    $data = 'a';
     return 'home';
 });
